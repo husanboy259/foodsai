@@ -104,7 +104,7 @@ export default function Index() {
 
   const toggleFavorite = (id: number) => {
     setFavorites((prev) =>
-      prev.includes(id) ? prev.filter((fav) => fav !== id) : [...prev, id]
+      prev.includes(id) ? prev.filter((fav) => fav !== id) : [...prev, id],
     );
   };
 
@@ -314,17 +314,26 @@ export default function Index() {
               <h4 className="font-semibold text-foreground mb-4">About</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Careers
                   </a>
                 </li>
@@ -334,17 +343,26 @@ export default function Index() {
               <h4 className="font-semibold text-foreground mb-4">Support</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Help Center
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Contact Us
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     FAQ
                   </a>
                 </li>
@@ -354,12 +372,18 @@ export default function Index() {
               <h4 className="font-semibold text-foreground mb-4">Legal</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Terms of Service
                   </a>
                 </li>
@@ -369,17 +393,26 @@ export default function Index() {
               <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-primary">
+                  <a
+                    href="#"
+                    className="text-muted-foreground hover:text-primary"
+                  >
                     Facebook
                   </a>
                 </li>

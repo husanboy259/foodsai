@@ -58,9 +58,7 @@ export default function Admin() {
               <p className="text-3xl font-bold text-foreground">156</p>
             </Card>
             <Card className="p-6">
-              <p className="text-sm text-muted-foreground mb-2">
-                Total Orders
-              </p>
+              <p className="text-sm text-muted-foreground mb-2">Total Orders</p>
               <p className="text-3xl font-bold text-primary">42</p>
             </Card>
             <Card className="p-6">
@@ -74,9 +72,7 @@ export default function Admin() {
 
         {/* Products Table */}
         <Card className="p-6">
-          <h2 className="text-2xl font-bold text-foreground mb-6">
-            Products
-          </h2>
+          <h2 className="text-2xl font-bold text-foreground mb-6">Products</h2>
 
           <div className="overflow-x-auto">
             <table className="w-full">

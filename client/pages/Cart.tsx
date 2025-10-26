@@ -23,7 +23,7 @@ export default function Cart() {
 
   const subtotal = cartItems.reduce(
     (sum, item) => sum + item.price * item.quantity,
-    0
+    0,
   );
   const tax = subtotal * 0.1;
   const total = subtotal + tax;
@@ -32,17 +32,16 @@ export default function Cart() {
     <div className="min-h-screen bg-background">
       <Navbar />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-3xl font-bold text-foreground mb-8">Shopping Cart</h1>
+        <h1 className="text-3xl font-bold text-foreground mb-8">
+          Shopping Cart
+        </h1>
 
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Cart Items */}
           <div className="lg:col-span-2 space-y-4">
             {cartItems.length > 0 ? (
               cartItems.map((item) => (
-                <Card
-                  key={item.id}
-                  className="p-4 flex items-center gap-4"
-                >
+                <Card key={item.id} className="p-4 flex items-center gap-4">
                   <div className="text-4xl">{item.image}</div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-foreground">

@@ -1,7 +1,14 @@
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Heart, ShoppingCart, Star, Truck, Shield, RotateCcw } from "lucide-react";
+import {
+  Heart,
+  ShoppingCart,
+  Star,
+  Truck,
+  Shield,
+  RotateCcw,
+} from "lucide-react";
 import { useState } from "react";
 
 export default function ProductDetail() {
@@ -131,10 +138,7 @@ export default function ProductDetail() {
                     +
                   </button>
                 </div>
-                <Button
-                  size="lg"
-                  className="flex-1 gap-2"
-                >
+                <Button size="lg" className="flex-1 gap-2">
                   <ShoppingCart className="w-5 h-5" />
                   Add to Cart
                 </Button>

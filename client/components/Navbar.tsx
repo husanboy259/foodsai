@@ -14,9 +14,13 @@ export function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">🍽️</span>
+              <span className="text-primary-foreground font-bold text-lg">
+                🍽️
+              </span>
             </div>
-            <span className="font-bold text-lg text-foreground hidden sm:inline">FoodHub</span>
+            <span className="font-bold text-lg text-foreground hidden sm:inline">
+              FoodHub
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

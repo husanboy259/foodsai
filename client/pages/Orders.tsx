@@ -66,7 +66,10 @@ export default function Orders() {
         <div className="space-y-4">
           {orders.length > 0 ? (
             orders.map((order) => (
-              <Card key={order.id} className="p-6 hover:shadow-md transition-shadow">
+              <Card
+                key={order.id}
+                className="p-6 hover:shadow-md transition-shadow"
+              >
                 <div className="grid md:grid-cols-5 gap-4 items-center">
                   <div>
                     <p className="text-sm text-muted-foreground">Order ID</p>
